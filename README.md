@@ -13,6 +13,12 @@ are labelled as seeded demonstration data.
 Design language: **Jade Pebble Morning** — light morning-mist surfaces,
 frosted glass panels, jade evidence accents and warm pebble highlights.
 
+## See it without installing anything
+
+Open this repository on GitHub, click **Code → Codespaces → Create codespace**.
+The workspace boots in the browser cloud with the free Pollinations AI provider
+prefilled — no keys required. For full local AI, run it with Ollama as below.
+
 ## Run it
 
 Requirements: Node 22.5+ (built-in `node:sqlite`) and, for the default

@@ -1,0 +1,14 @@
+{
+  "name": "Jade Pebble Workspace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22",
+  "containerEnv": { "AI_PROVIDER": "pollinations" },
+  "postCreateCommand": "npm start",
+  "forwardPorts": [4173],
+  "portsAttributes": {
+    "4173": { "label": "Jade Pebble Workspace", "onAutoForward": "openBrowser" }
+  },
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md"] }
+  },
+  "remoteUser": "codespace"
+}
