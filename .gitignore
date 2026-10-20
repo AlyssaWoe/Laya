@@ -1,0 +1,8 @@
+node_modules/
+src/server/data/*.db
+src/server/data/*.db-*
+src/server/data/provider.json
+src/server/data/session.key
+.env
+*.log
+.DS_Store

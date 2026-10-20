@@ -1,0 +1,18 @@
+{
+  "name": "jade-pebble-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jade Pebble — a glassmorphic agentic AI operations workspace with grounded evidence, deterministic policy and human gates.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
+    "seed": "node src/server/seed.js --reset",
+    "check": "node --check src/server/index.js",
+    "test": "node --test \"src/tests/*.test.js\""
+  },
+  "dependencies": {}
+}
